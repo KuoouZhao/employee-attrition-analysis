@@ -1,0 +1,14 @@
+##To proactively identify employees who are at risk of leaving, a logistic regression model was trained using selected features such as satisfaction, engagement, salary, tenure, and absences.
+
+- Features used: EmpSatisfaction, EngagementSurvey, Salary, Tenure, Absences, etc.
+- Target variable: Termd (1 = Left, 0 = Stayed)
+- Algorithm: Logistic Regression
+- Train/test split: 70/30
+
+Accuracy: 97%
+Confusion Matrix:
+[[66  0]
+ [ 3 25]]
+F1-Score for class "Left": 0.94
+
+The model shows strong performance in identifying potential leavers, with 97% accuracy. It can be used by HR teams to flag high-risk employees and intervene early.
