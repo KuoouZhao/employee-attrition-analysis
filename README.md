@@ -1,4 +1,25 @@
-# employee-attrition-analysis
-This project looks into employee attrition using real-world HR data. I started by analyzing patterns in departments, satisfaction scores, salary levels, and recruitment channels to understand what might be driving employees to leave.
-After the initial analysis, I trained a logistic regression model to predict which employees are most likely to leave. The model reached 97% accuracy on the test set. The goal is to help HR teams identify high-risk cases early and reduce unnecessary turnover.
-This report summarizes key findings, visual insights, and the predictive model used.
+# Employee Attrition Analysis & Prediction
+
+This project explores patterns of employee turnover using HR data and builds a logistic regression model to predict attrition risk.
+
+## 📊 Key Analyses
+- Attrition rate by department
+- Job satisfaction vs. attrition
+- Salary differences between stayers and leavers
+- Recruitment source effectiveness
+
+## 🤖 Predictive Modeling
+- Logistic Regression
+- Model accuracy: 97%
+- Evaluation: confusion matrix, precision, recall
+
+## 📁 Outputs
+- Charts: `department_attrition.png`
+- Excel reports: `attrition_predictions.xlsx`, `attrition_by_satisfaction.xlsx`
+
+## 🔧 Tools Used
+- Python (pandas, matplotlib, scikit-learn)
+- Jupyter Notebook
+
+## 📌 Project Goal
+To help HR teams identify at-risk employees early and reduce turnover using data-driven insights.
